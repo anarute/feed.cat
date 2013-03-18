@@ -13,7 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddedff', end
 
 }
 header,section, footer{
-S  text-align: center;
+  text-align: center;
 }
 header{
   font-family: 'Gabriela', serif;

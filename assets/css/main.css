@@ -1,0 +1,48 @@
+html{
+  height: 100%;
+}
+body {
+background: #ddedff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ddedff 0%, #cedbe2 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ddedff), color-stop(100%,#cedbe2)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ddedff 0%,#cedbe2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ddedff 0%,#cedbe2 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ddedff 0%,#cedbe2 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ddedff 0%,#cedbe2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddedff', endColorstr='#cedbe2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+header,section, footer{
+S  text-align: center;
+}
+header{
+  font-family: 'Gabriela', serif;
+}
+.logo{
+	font-size: 5em;
+	color: rgb(179,0,0);
+	text-shadow: -4px 2px 0px rgba(247, 194, 30, 1);
+	margin: 30px 0;
+}
+header span{
+	font-size: 0.8em;
+}
+section, footer{
+  font-family: 'Inder', sans-serif;
+}
+section h2, footer{
+	font-size: 2.5em;
+}
+#deadline{
+	margin: 20px 0;
+}
+#deadline input{
+	font-size: 2.5em;
+	color: #444;
+	padding: 0.4em;
+}
+.time_left{
+	font-size: 2em;
+	margin: 5px 0;
+	display: none;
+}
